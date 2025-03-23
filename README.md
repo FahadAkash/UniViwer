@@ -70,13 +70,13 @@ https://github.com/FahadAkash/UniViewer.git
 ## 🖥️ Screenshots
 
 ### 📌 Folder Selector
-![Folder Selector](https://your-image-url.com/folder-selector.png)
+![Folder Selector](https://github.com/FahadAkash/UniViwer/blob/main/Files/Folder%20Selectort.png)
 
 ### 📌 UML Viewer
-![UML Viewer](https://your-image-url.com/uml-viewer.png)
+![UML Viewer](https://github.com/FahadAkash/UniViwer/blob/main/Files/Uml%20VIew.png)
 
 ### 📌 Folder Tree View
-![Folder Tree](https://your-image-url.com/folder-tree.png)
+![Folder Tree](https://github.com/FahadAkash/UniViwer/blob/main/Files/UML%20Tree.png)
 
 ---
 
