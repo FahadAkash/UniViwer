@@ -90,21 +90,21 @@ To contribute to **UniViewer**, follow these steps:
 2. Create a **new branch**:  
 ```sh
 git checkout -b feature/your-feature-name
----
+```
 3 . Make your changes and commit:
 ```sh
 git commit -m "Added a cool new feature"
----
+ ```
 4 . Push to your branch: 
 ```sh
 git push origin feature/your-feature-name
----
+ ```
 5 . Submit a Pull Request!
 ```sh
 📜 License
 This project is licensed under the MIT License.
 Feel free to use, modify, and distribute.
----
+```
 📬 Contact
 GitHub: FahadAkash
 
