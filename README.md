@@ -40,7 +40,7 @@ https://github.com/yourusername/UniViewer.git
 
 ### 📌 Via UnityPackage (Manual Installation)
 
-1. **Download the latest `.unitypackage` release** from the [Releases](https://github.com/yourusername/UniViewer/releases) page.
+1. **Download the latest `.unitypackage` release** from the [Releases](https://github.com/FahadAkash/UniViewer/releases) page.
 2. Open **Unity** and go to **Assets → Import Package → Custom Package...**
 3. Select the downloaded `.unitypackage` file and click **Import**.
 
