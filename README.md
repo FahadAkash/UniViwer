@@ -31,7 +31,7 @@
 2. Open the **Package Manager** → *(Window → Package Manager)*.
 3. Click the **"+"** button in the upper left corner and select **"Add package from git URL..."**.
 4. Paste the following URL into the prompt and click **Add**:
-https://github.com/yourusername/UniViewer.git
+https://github.com/FahadAkash/UniViewer.git
 
 
 5. UniViewer will be added to your project as a package.
