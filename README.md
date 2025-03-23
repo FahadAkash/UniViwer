@@ -1,6 +1,6 @@
 # 🎯 UniViewer - Script UML & Folder Analysis for Unity
 
-![UniViewer Logo](https://your-image-url.com/logo.png)
+![UniViewer Logo](https://github.com/FahadAkash/UniViwer/blob/main/Files/UMLViwer.png)
 
 **UniViewer** is a powerful Unity Editor extension that helps you analyze and visualize your C# scripts in a UML-like structure. With intuitive folder selection, script dependency mapping, and a sleek UI for browsing your project’s class hierarchies, UniViewer makes understanding your codebase easier than ever.
 
