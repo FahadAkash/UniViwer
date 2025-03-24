@@ -1,11 +1,10 @@
 {
-    "name" : "com.fahadakash.uniViewer" ,
+    "name" : "com.TrimatiCompany.UML-VIEWER" ,
     "version" : "1.0.1",
     "description": "A Simple UML Viwer For Unity" ,
     "unity" : "2020.4",
     "author": {
         "name" : "Fahad Akash" ,
-        "email" : "fahadakash@protonmail.com",
-        "url" : ""
+        "email" : "fahadakash@protonmail.com" 
     }
 }
