@@ -1,10 +1,14 @@
 {
-    "name" : "com.TrimatiCompany.UML-VIEWER" ,
-    "version" : "1.0.1",
-    "description": "A Simple UML Viwer For Unity" ,
+    "name": "com.trimaticompany.umlviewer",
+    "version": "1.0.0",
+    "displayName": "UniViewer",
+    "description": "A Unity Editor extension for visualizing your C# scripts in a UML-like structure.",
     "unity" : "2020.4",
     "author": {
         "name" : "Fahad Akash" ,
         "email" : "fahadakash@protonmail.com" 
     }
 }
+
+ 
+  
