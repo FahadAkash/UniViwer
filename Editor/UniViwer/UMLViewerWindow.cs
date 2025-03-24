@@ -444,9 +444,10 @@ public class UMLViewerWindow : EditorWindow
     {
         try
         {
-           // Debug.Log($"Processing script with ClassName: {script.ClassName}, GUID: {script.GUID}");
+            Debug.Log($"Processing script with ClassName: {script.ClassName}, GUID: {script.GUID}");
             if (string.IsNullOrEmpty(script.ClassName)) return;
 
+            // Use cached data if available and valid
             if (cache.cachedData.TryGetValue(script.GUID, out var cached) &&
                 File.Exists(script.AssetPath) &&
                 File.GetLastWriteTime(script.AssetPath).Ticks == cache.lastModifiedTimes[script.GUID])
@@ -463,6 +464,13 @@ public class UMLViewerWindow : EditorWindow
 
             foreach (var scenePath in scenePaths)
             {
+                // Skip scenes in read-only packages
+                if (scenePath.StartsWith("Packages/"))
+                {
+                    Debug.LogWarning($"Skipping read-only scene: {scenePath}");
+                    continue;
+                }
+
                 Debug.Log($"Processing scene: {scenePath}");
                 Scene scene = default;
                 try
@@ -573,6 +581,11 @@ public class UMLViewerWindow : EditorWindow
 
     private void FocusObjectInScene(string scenePath, string objectPath)
     {
+        if (scenePath.StartsWith("Packages/"))
+        {
+            Debug.LogWarning($"Cannot focus object in read-only scene: {scenePath}");
+            return;
+        }
         if (EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo())
         {
             try
